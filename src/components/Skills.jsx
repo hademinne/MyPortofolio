@@ -5,9 +5,9 @@ import CSS from "../assets/css.png";
 import JavaScript from "../assets/javascript.png";
 import ReactImg from "../assets/react.png";
 import Node from "../assets/node.png";
-import FireBase from "../assets/firebase.png";
+// import FireBase from "../assets/firebase.png";
 import GitHub from "../assets/github.png";
-import Tailwind from "../assets/tailwind.png";
+import chakra from "../assets/chakra.png";
 import Mongo from "../assets/mongo.png";
 
 const Skills = () => {
@@ -52,13 +52,13 @@ const Skills = () => {
             <p className="my-4">MONGO DB</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Tailwind} alt="HTML icon" />
-            <p className="my-4">TAILWIND</p>
+            <img className="w-20 mx-auto" src={chakra} alt="HTML icon" />
+            <p className="my-4">CHKRA-UI</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          {/* <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={FireBase} alt="HTML icon" />
             <p className="my-4">FIREBASE</p>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
