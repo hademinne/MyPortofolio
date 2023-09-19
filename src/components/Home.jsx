@@ -1,5 +1,6 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
+import img from "../assets/img.png";
 
 const Home = () => {
   return (
@@ -9,7 +10,7 @@ const Home = () => {
         <div className="flex items-center">
           {" "}
           {/* Wrap the img and text inside a flex container */}
-          <img className="w-20 h-20 rounded-full mr-4 " src={""} alt="" />
+          <img className="w-20 h-20 rounded-full mr-4 " src={img} alt="" />
           <p className="text-pink-600">Hi, my name is</p>
         </div>
         <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
